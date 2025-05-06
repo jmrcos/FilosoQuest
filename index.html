@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Filosófico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/icon.png" type="image/png">
+
+</head>
+<body>
+
+<div class="container">
+    <h1 id="tituloPrincipal">Quiz Filosófico: A Jornada do Conhecimento</h1>
+    
+    <div id="intro">
+        <h2>📜 Bem-vindo ao Quiz Filosófico!</h2>
+        <p>Responda às perguntas para avançar pelas fases e testar seus conhecimentos sobre Filosofia da Educação.</p>
+        <p>Para passar de fase é necessário acertar o mínimo de 4 perguntas!</p>
+        <p>Você possui apenas 3 tentativas para errar as respostas.</p>
+        <p>Cuidado! O tempo para cada pergunta é limitado. Boa sorte!</p>
+        <p>Digite seu nome para começar:</p>
+        <input type="text" id="nomeJogador" placeholder="Seu nome">
+        <button onclick="iniciarQuiz()">Começar</button>
+    </div>
+
+    <!-- Jogo em uma única div -->
+    <div id="quiz-container" style="display: none;">
+        <p id="placar">Placar: 0 pontos</p>
+        <p id="timer">Tempo restante: 60s</p>
+        <p>Tentativas restantes: <span id="tentativas">III</span></p>
+        <h1 id="faseTitulo"></h1>
+        <div id="pergunta-area"></div>
+    </div>
+
+    <!-- Tela Final -->
+    <div id="fim" style="display: none;">
+        <h2 id="mensagemFinal"></h2>
+        <p id="resultado"></p>
+        <p id="placarFinal"></p>
+        <ul id="gabarito"></ul>
+        <p id="animacaoVitoria" class="animacao">🎊 Você atingiu a meta! Parabéns! 🎊</p>
+        <p id="animacaoDerrota" class="animacao">😢 Não foi dessa vez! Tente novamente! 😢</p>
+        <button onclick="reiniciarQuiz()">🔄 Reiniciar Quiz</button>
+    </div>
+</div>
+
+<audio id="somAlerta" src="/assets/alerta.mp3"></audio>
+<audio id="somVitoria" src="/assets/vitoria.mp3"></audio>
+<audio id="somDerrota" src="/assets/derrota.mp3"></audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
