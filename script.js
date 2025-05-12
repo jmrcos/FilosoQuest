@@ -63,7 +63,7 @@ const fases = [
       { pergunta: "3. Qual é um dos maiores desafios éticos enfrentados por professores no ambiente escolar?", respostas: ["A) Lidar com a diversidade e garantir equidade no trato com todos os alunos", "B) Manter-se neutro diante de questões sociais", "C) Controlar o tempo das aulas", "D) Ensinar apenas matérias do currículo"], correta: 0 },
       { pergunta: "4. A relação entre ética e educação implica que o professor deve:", respostas: ["A) Reproduzir opiniões pessoais nas aulas", "B) Impor suas verdades morais", "C) Seguir ordens sem questionar", "D) Estimular o pensamento crítico e o respeito à pluralidade"], correta: 3 },
       { pergunta: "5. Na formação docente, a ética profissional deve ser entendida como:", respostas: ["A) Uma escolha pessoal e opcional", "B) Uma dimensão essencial para o exercício consciente e justo da profissão", "C) Um conjunto de regras fixas e inquestionáveis", "D) Um conteúdo secundário dentro da pedagogia"], correta: 2 },
-      { pergunta: "6. Qual filósofo falou sobre autonomia na educação?", respostas: ["A) Paulo Freire", "B) Platão", "C) Aristóteles", "D) Descartes"], correta: 0 }
+      { pergunta: "6. De acordo com os conceitos apresentados sobre ética e moral, qual das alternativas abaixo melhor representa a distinção entre ambas?", respostas: ["A) Ética e moral são sinônimos e podem ser usadas indistintamente", "B) A moral refere-se a normas e hábitos, enquanto a ética é uma reflexão sobre essas normas", "C) A ética está baseada exclusivamente em leis e regulamentos impostos pela sociedade.", "D) A moral é sempre inquestionável, pois segue os costumes estabelecidos há séculos."], correta: 1 }
     ]
   }
 ];
