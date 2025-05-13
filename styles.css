@@ -175,5 +175,13 @@ button:hover {
         width: 80%;
         height: 80%;
     }
+
+    #nomeJogador{
+        width: 90%;
+    }
+
+    button{
+      width: 80%;
+    }
 }
   
